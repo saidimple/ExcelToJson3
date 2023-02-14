@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Excel to Json</title>
+		<style>
+			table, th, td {
+  				border: 1px solid black;
+  				border-collapse: collapse;
+			}
+		</style>
+	</head>
+	<body>
+		<form method="POST" action="getJsonData" ENCTYPE="multipart/form-data">
+			<input type="file" name="excelFile"/>
+			<input type="button" value="Upload" id="uploadButton"/>
+		</form>
+		<div>
+			<table id = "tableData"></table>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
